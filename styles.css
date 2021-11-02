@@ -1,0 +1,197 @@
+
+.outer {
+  margin-left: 70px;
+  margin-right: 70px;
+}
+
+
+/* Add a black background color to the top navigation bar */
+.topnav {
+  width: 100%;
+  margin-top: 50px;
+  overflow: hidden;
+  background-color: white;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #F4F6F7;
+  color: blue;
+}
+
+/* Style the "active" element to highlight the current page */
+.topnav a.active {
+  background-color: white;
+  color: Black;
+  font-weight: 900;
+  font-size: 50px;
+  text-align: left;
+  margin-right: 25%;
+}
+
+/* Style the search box inside the navigation bar */
+.search input[type=search] {
+  background-color: #F3F3F3;
+  float: right;
+  border: 1px solid #E5E7E9;
+  border-radius: 30px;
+  margin-right: 10%;
+  margin-bottom: 25px;
+  font-size: 20px;
+  padding: 14px 16px;
+}
+
+.search{
+  background-color: white;
+  float:right;
+}
+
+/* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
+@media screen and (max-width: 600px) {
+  .topnav a {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .search input[type=search] {
+    border: 1px solid #E5E7E9  ;
+  }
+}
+
+
+/*
+*/
+.getstarted {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+ .getstarted label {
+  background-color: white;
+  color: black;
+  font-weight: 900;
+  font-size: 80px;
+}
+
+ p {
+   background-color: white;
+  color: Black;
+  font-size: 24px;
+  text-align: center;
+}
+
+ button {
+   height: 50px;
+   width: 200px;
+  background-color: #004687;
+  color: white;
+  font-size: 20px;
+  border: 1px;
+  border-radius: 10px;
+  display: block;
+  margin: auto;
+}
+
+button:hover {
+  background-color: #579DE4;
+  color: white;
+}
+
+
+.grid {
+  margin-top: 5%;
+  height: 500px;
+	width:1344px;
+  display: grid;
+  grid-column-gap:none;
+	grid-template-columns:auto auto auto;
+	padding:10px;
+}
+.grid img {
+  height:500px;
+	width:750px;
+  border-radius: 20px;
+  border: none;
+}
+
+.grid-item{
+  background-color: white;
+	font-size:20px;
+	text-align:center;
+	padding:20px;
+}
+.abc {
+  margin-top: 20%;
+}
+
+.grid-item p.abc{
+  background-color: white;
+  border-radius: 20px;
+  margin-right: 10%;
+  float: left;
+  font-size:20px;
+	padding:20px;
+}
+
+.footer {
+  margin-top: 5%;
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+  background-color: #004687;
+  border-radius: 20px;
+  margin-bottom: 10%;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.container > div{
+				background-color: #004687;
+				font-size:20px;
+				padding:10px;
+				width: 20%;
+			}
+.footer img {
+  background-color: #004687;
+  height: 100px !important;
+  border-radius: 50%;
+  width: 100px !important;
+  margin-left: 50%;
+  margin-top: 10%;
+  vertical-align: middle;
+  border: none;
+  float: left;
+  grid-row: auto;
+}
+
+#img1 {
+  max-width: 100%;
+  height: auto;
+}
+.footer p {
+  grid-row: auto;
+  background-color: #004687;
+  font-size: large;
+  margin-left: 40%;
+  color: white;
+  margin-top: 50%;
+  text-align: center;
+  font-weight: 700;
+  font-size: 24px;
+}
